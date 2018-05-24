@@ -21,22 +21,22 @@
                     <div class="row"></div>    
                     <div class="row">
                         <div class="sm-1"></div>
-                        <div class="sm-8"></div>
+                        <div class="sm-10"></div>
                             <div class="btn-group btn-group-justified" role="group">
-                              <div class="btn-group" role="group">
+                              <div class="sm-4 btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
                               </div>
                               <div class="sm-2"></div>
-                              <div class="btn-group" role="group">
+                              <div class="sm-4 btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
                               </div>
                             </div>
                             <div class="btn-group btn-group-justified" role="group">
-                              <div class="btn-group" role="group">
+                              <div class="sm-4 btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Derivée</button>
                               </div>
                               <div class="sm-2"></div>
-                              <div class="btn-group" role="group">
+                              <div class="sm-4 btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Primitive</button>
                               </div>
                             </div>
@@ -62,7 +62,7 @@
                             </div>
                         </div>
 
-                        <!-- Add Task Button -->
+                        <!-- Add Task Button --><!--
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
                                 <button type="submit" class="btn btn-default">
