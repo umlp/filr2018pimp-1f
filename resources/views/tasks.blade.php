@@ -20,27 +20,31 @@
                         </div>
                         <div class="sm-9"></div>
                     </div>
-                    <div class="row btn-group btn-group-justified" role="group">
-                      <div class="sm-1"></div>
-                      <div class="sm-4 btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
-                      </div>
-                      <div class="sm-2"></div>
-                      <div class="sm-4 btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
-                      </div>
-                      <div class="sm-1"></div>
+                    <div class="row">
+                        <div class="btn-group btn-group-justified" role="group">
+                          <div class="sm-1"></div>
+                          <div class="sm-4 btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
+                          </div>
+                          <div class="sm-2"></div>
+                          <div class="sm-4 btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
+                          </div>
+                          <div class="sm-1"></div>
+                        </div>
                     </div>
-                    <div class="row btn-group btn-group-justified" role="group">
-                      <div class="sm-1"></div>
-                      <div class="sm-4 btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Derivée</button>
-                      </div>
-                      <div class="sm-2"></div>
-                      <div class="sm-4 btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Primitive</button>
-                      </div>
-                      <div class="sm-1"></div>
+                    <div class="row">
+                        <div class="btn-group btn-group-justified" role="group">
+                          <div class="sm-1"></div>
+                          <div class="sm-4 btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Derivée</button>
+                          </div>
+                          <div class="sm-2"></div>
+                          <div class="sm-4 btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Primitive</button>
+                          </div>
+                          <div class="sm-1"></div>
+                        </div>
                     </div>   
                     <div class="row">
                         <div class="sm-12">
