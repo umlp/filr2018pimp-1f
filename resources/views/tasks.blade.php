@@ -15,7 +15,7 @@
                     <!-- Menu principal -->
                     <div class="row">
                         <div class="sm-1"></div>
-                        <div class="sm-10"></div>
+                        <div class="sm-10">
                             <div class="btn-group btn-group-justified" role="group">
                               <div class="btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
