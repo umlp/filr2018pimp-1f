@@ -28,8 +28,7 @@
 <body id="app-layout">
 
 
-<-- barre de menu -->
-    <button type="button" class="btn btn-info">Aide</button>
+<!-- barre de menu -->
     @yield('content')
 
     <!-- JavaScripts -->
