@@ -1,26 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-    <button type="button" class="btn btn-info">Aide</button>
-    <div class="btn-group btn-group-justified" role="group">
-      <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
-      </div>
-      <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
-      </div>
-    </div>
-    <div class="btn-group btn-group-justified" role="group">
-      <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary">Derivée</button>
-      </div>
-      <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary">Primitive</button>
-      </div>
-    </div>
-    <button type="button" class="btn btn-default">Tracer une fonction</button>
-    
     <div class="container">
         <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">
@@ -31,6 +11,27 @@
                 <div class="panel-body">
                     <!-- Display Validation Errors -->
                     @include('common.errors')
+
+                    <!-- Menu principal -->
+                    <button type="button" class="btn btn-info">Aide</button>
+                    <div class="btn-group btn-group-justified" role="group">
+                      <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
+                      </div>
+                      <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
+                      </div>
+                    </div>
+                    <div class="btn-group btn-group-justified" role="group">
+                      <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary">Derivée</button>
+                      </div>
+                      <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary">Primitive</button>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-default">Tracer une fonction</button>
+                    
 
                     <!-- New Task Form -->
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
