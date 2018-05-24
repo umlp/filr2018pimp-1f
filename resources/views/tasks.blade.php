@@ -17,14 +17,16 @@
                         <div class="sm-12">
                             <button type="button" class="btn btn-info">Aide</button>
                         </div>
-                    </div>    
+                    </div>
+                    <div class="row"></div>    
                     <div class="row">
                         <div class="sm-1"></div>
-                        <div class="sm-10"></div>
+                        <div class="sm-8"></div>
                             <div class="btn-group btn-group-justified" role="group">
                               <div class="btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
                               </div>
+                              <div class="sm-2"></div>
                               <div class="btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
                               </div>
@@ -33,6 +35,7 @@
                               <div class="btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Derivée</button>
                               </div>
+                              <div class="sm-2"></div>
                               <div class="btn-group" role="group">
                                 <button type="button" class="btn btn-primary">Primitive</button>
                               </div>
@@ -46,7 +49,7 @@
                         </div>
                     </div>
 
-                    <!-- New Task Form -->
+                    <!-- New Task Form
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
                         {{ csrf_field() }}
 
@@ -68,6 +71,7 @@
                             </div>
                         </div>
                     </form>
+                    -->
                 </div>
             </div>
 
