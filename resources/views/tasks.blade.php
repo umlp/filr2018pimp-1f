@@ -13,25 +13,38 @@
                     @include('common.errors')
 
                     <!-- Menu principal -->
-                    <button type="button" class="btn btn-info">Aide</button>
-                    <div class="btn-group btn-group-justified" role="group">
-                      <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
-                      </div>
-                      <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
-                      </div>
+                    <div class="row">
+                        <div class="sm-12">
+                            <button type="button" class="btn btn-info">Aide</button>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="sm-1"></div>
+                        <div class="sm-10"></div>
+                            <div class="btn-group btn-group-justified" role="group">
+                              <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
+                              </div>
+                              <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
+                              </div>
+                            </div>
+                            <div class="btn-group btn-group-justified" role="group">
+                              <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-primary">Derivée</button>
+                              </div>
+                              <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-primary">Primitive</button>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="sm-1"></div>
+                    </div>    
+                    <div class="row">
+                        <div class="sm-12">
+                            <button type="button" class="btn btn-default">Tracer une fonction</button>
+                        </div>
                     </div>
-                    <div class="btn-group btn-group-justified" role="group">
-                      <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Derivée</button>
-                      </div>
-                      <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Primitive</button>
-                      </div>
-                    </div>
-                    <button type="button" class="btn btn-default">Tracer une fonction</button>
-                    
 
                     <!-- New Task Form -->
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
@@ -58,7 +71,7 @@
                 </div>
             </div>
 
-            <!-- Current Tasks -->
+            <!-- Current Tasks 
             @if (count($tasks) > 0)
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -94,6 +107,7 @@
                     </div>
                 </div>
             @endif
+            -->
         </div>
     </div>
 @endsection
