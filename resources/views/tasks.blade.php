@@ -20,7 +20,6 @@
                         </div>
                         <div class="sm-9"></div>
                     </div>
-                    <div class="row"></div>    
                     <div class="row btn-group btn-group-justified" role="group">
                       <div class="sm-1"></div>
                       <div class="sm-4 btn-group" role="group">
