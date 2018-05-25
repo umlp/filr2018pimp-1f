@@ -18,17 +18,21 @@
                         <div class="sm-10">
                             <div class="btn-group btn-group-justified" role="group">
                               <div class="btn-group" role="group">
+                                <img src="https://raw.githubusercontent.com/umlp/filr2018pimp-1f/master/resources/assets/Screenshot_2018-05-24_%2B22%3A58%3A58.png" style="display:block;text-align: center;margin-left: auto;margin-right: auto;">
                                 <button type="button" class="btn btn-primary">Equation du 1er degrée</button>
                               </div>
                               <div class="btn-group" role="group">
+                                <img src="https://raw.githubusercontent.com/umlp/filr2018pimp-1f/master/resources/assets/Screenshot_2018-05-24_%2B22%3A58%3A11.png" style="display:block;text-align: center;margin-left: auto;margin-right: auto;">
                                 <button type="button" class="btn btn-primary">Equation du 2éme degrée</button>
                               </div>
                             </div>
                             <div class="btn-group btn-group-justified" role="group">
                               <div class="btn-group" role="group">
+                                <img src="https://raw.githubusercontent.com/umlp/filr2018pimp-1f/master/resources/assets/Screenshot_2018-05-24_%2B22%3A58%3A25.png" style="display:block;text-align: center;margin-left: auto;margin-right: auto;">
                                 <button type="button" class="btn btn-primary">Derivée</button>
                               </div>
                               <div class="btn-group" role="group">
+                                <img src="https://raw.githubusercontent.com/umlp/filr2018pimp-1f/master/resources/assets/Screenshot_2018-05-24_%2B22%3A58%3A40.png" style="display:block;text-align: center;margin-left: auto;margin-right: auto;">
                                 <button type="button" class="btn btn-primary">Primitive</button>
                               </div>
                             </div>
