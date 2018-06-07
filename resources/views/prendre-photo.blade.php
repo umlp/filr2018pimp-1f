@@ -15,6 +15,7 @@
                     <!-- Menu principal -->
                     <form action="traiter-image" method="post">
                       <input type="file" accept="image/*;capture=camera">
+                      <input type="submit" value="Valider">
                     </form>
                 </div>
             </div>
