@@ -18,9 +18,21 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/', function () {
         return view('tasks');
     });
-
-    Route::get('/prendre-photo', function (Request $request) {
-        return view('prendre-photo');
+    
+    Route::get('/prendre-photo-primitive', function (Request $request) {
+        return view('prendre-photo-primitive');
+    });
+    
+    Route::get('/prendre-photo-derivee', function (Request $request) {
+        return view('prendre-photo-derivee');
+    });
+    
+    Route::get('/prendre-photo-equation-1', function (Request $request) {
+        return view('prendre-photo-equation-1');
+    });
+    
+    Route::get('/prendre-photo-equation-2', function (Request $request) {
+        return view('prendre-photo-equation-2');
     });
     
     Route::get('/afficher-resultat', function (Request $request) {
