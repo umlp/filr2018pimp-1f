@@ -41,6 +41,6 @@ Route::group(['middleware' => ['web']], function () {
     });
     
     Route::post('/traiter-image', function (Request $request) {
-        return Response::make('Friend added!');
+        //Implementer
     });
 });
