@@ -40,6 +40,10 @@ Route::group(['middleware' => ['web']], function () {
         return view('afficher-resultat');
     });
     
+    Route::get('/aide', function () {
+        return view('aide');
+    });
+    
     Route::post('/traiter-image', function (Request $request) {
         //Implementer
     });
