@@ -16,7 +16,9 @@
                     <div class="row">
                         <div class="sm-1"></div>
                         <div class="sm-2">
-                            <button type="button" class="btn btn-info">Aide<</button>
+                            <button type="button" class="btn btn-info" onclick="location.href='https://equasnap.herokuapp.com/aide';">
+                                Aide
+                            </button>
                         </div>
                         <div class="sm-9"></div>
                     </div>
@@ -56,7 +58,9 @@
                     </div>    
                     <div class="row">
                         <div class="sm-12">
-                            <button type="button" class="btn btn-default">Tracer une fonction</button>
+                            <button type="button" class="btn btn-default" onclick="location.href='https://equasnap.herokuapp.com/tracer-fonction';">
+                                Tracer une fonction
+                            </button>
                         </div>
                     </div>
                 </div>
