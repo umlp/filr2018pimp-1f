@@ -14,9 +14,16 @@
                 
                     <!-- Menu principal -->
                     <form class="form-horizontal" action="traiter-image" method="post">
-                        <div class="form-group has-success has-feedback">
-                          <input class="form-control" type="file" accept="image/*;capture=camera">
-                          <input class="form-control" type="submit" value="Valider">
+                        <div class="form-group has-feedback">
+                            <label class="control-label col-sm-3">Prendre photo</label>
+                            <div class="col-sm-9">
+                              <input class="form-control" type="file" accept="image/*;capture=camera">
+                            </div>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <div class="col-sm-12">
+                                <input class="form-control" type="submit" value="Valider">
+                            </div>
                         </div>
                     </form>
                 </div>
