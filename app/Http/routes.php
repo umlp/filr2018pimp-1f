@@ -28,7 +28,7 @@ Route::group(['middleware' => ['web']], function () {
      * Add New Task
      */
     Route::get('/test', function (Request $request) {
-        return view('welcome');
+        return view('prendre-photo');
     });
 
     /**
