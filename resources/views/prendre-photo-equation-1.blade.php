@@ -13,7 +13,7 @@
                     @include('common.errors')
                 
                     <!-- Menu principal -->
-                    <form class="form-horizontal" action="traiter-image" method="post">
+                    <form class="form-horizontal" action="afficher-resultat" method="post">
                         <div class="form-group has-feedback">
                             <label class="control-label col-sm-3">Prendre photo</label>
                             <div class="col-sm-9">
