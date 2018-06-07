@@ -35,7 +35,7 @@ Route::group(['middleware' => ['web']], function () {
         return view('prendre-photo-equation-2');
     });
     
-    Route::get('/afficher-resultat', function (Request $request) {
+    Route::get('/afficher-resultat', function () {
         return view('afficher-resultat');
     });
     
