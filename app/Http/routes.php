@@ -35,7 +35,11 @@ Route::group(['middleware' => ['web']], function () {
         return view('prendre-photo-equation-2');
     });
     
-    Route::post('/afficher-resultat', function (Request $request) {
+    Route::get('/afficher-resultat', function (Request $request) {
         return view('afficher-resultat');
+    });
+    
+    Route::post('/traiter-image', function (Request $request) {
+        return redirect('/afficher-resultat');
     });
 });
