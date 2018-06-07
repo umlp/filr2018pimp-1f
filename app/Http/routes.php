@@ -40,6 +40,9 @@ Route::group(['middleware' => ['web']], function () {
     });
     
     Route::post('/traiter-image', function (Request $request) {
+        $task = new Task;
+	    $task->name = $request->name;
+    	$task->save();
         return redirect('/afficher-resultat');
     });
 });
