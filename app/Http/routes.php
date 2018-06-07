@@ -15,28 +15,15 @@ use App\Task;
 use Illuminate\Http\Request;
 
 Route::group(['middleware' => ['web']], function () {
-    /**
-     * Show Task Dashboard
-     */
     Route::get('/', function () {
-        return view('tasks', [
-            'tasks' => Task::orderBy('created_at', 'asc')->get()
-        ]);
+        return view('tasks');
     });
 
-    /**
-     * Add New Task
-     */
-    Route::get('/test', function (Request $request) {
+    Route::get('/prendre-photo', function (Request $request) {
         return view('prendre-photo');
     });
-
-    /**
-     * Delete Task
-     */
-    Route::delete('/task/{id}', function ($id) {
-        Task::findOrFail($id)->delete();
-
-        return redirect('/');
+    
+    Route::get('/afficher-resultat', function (Request $request) {
+        return view('afficher-resultat');
     });
 });
