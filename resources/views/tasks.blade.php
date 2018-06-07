@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="sm-1"></div>
                         <div class="sm-2">
-                            <button type="button" class="btn btn-info" onclick="location.href='https://equasnap.herokuapp.com/aide';">
+                            <button type="button" class="btn btn-info btn-block" onclick="location.href='https://equasnap.herokuapp.com/aide';">
                                 Aide
                             </button>
                         </div>
