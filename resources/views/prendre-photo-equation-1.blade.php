@@ -13,6 +13,9 @@
                     @include('common.errors')
                 
                     <!-- Menu principal -->
+                    <p class="bg-primary">
+                        Equation du 1er degrée...
+                    </p>
                     <form class="form-horizontal" action="afficher-resultat" method="post">
                         <div class="form-group has-feedback">
                             <label class="control-label col-sm-3">Prendre photo</label>
