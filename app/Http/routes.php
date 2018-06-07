@@ -13,6 +13,7 @@
 
 use App\Task;
 use Illuminate\Http\Request;
+use Response;
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('/', function () {
