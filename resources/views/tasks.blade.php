@@ -5,7 +5,7 @@
         <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Menu principal
+                    <a href="/">Menu principal</a>
                 </div>
 
                 <div class="panel-body">
