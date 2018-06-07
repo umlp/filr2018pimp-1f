@@ -31,7 +31,7 @@
                      <div id="results" ></div>
 
                      <!-- Script -->
-                     <script type="text/javascript" src="webcamjs/webcam.min.js"></script>
+                     <script type="text/javascript" src="https://raw.githubusercontent.com/jhuckaby/webcamjs/master/webcam.js"></script>
 
                      <!-- Code to handle taking the snapshot and displaying it locally -->
                      <script language="JavaScript">
