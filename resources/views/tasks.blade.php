@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="sm-1"></div>
                         <div class="sm-2">
-                            <button type="button" class="btn btn-info">Aide</button>
+                            <button type="button" class="btn btn-info"><a href="test">Aide</a></button>
                         </div>
                         <div class="sm-9"></div>
                     </div>
