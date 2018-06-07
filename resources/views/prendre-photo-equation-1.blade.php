@@ -13,9 +13,11 @@
                     @include('common.errors')
                 
                     <!-- Menu principal -->
-                    <form action="traiter-image" method="post">
-                      <input type="file" accept="image/*;capture=camera">
-                      <input type="submit" value="Valider">
+                    <form class="form-horizontal" action="traiter-image" method="post">
+                        <div class="form-group has-success has-feedback">
+                          <input class="form-control" type="file" accept="image/*;capture=camera">
+                          <input class="form-control" type="submit" value="Valider">
+                        </div>
                     </form>
                 </div>
             </div>
