@@ -13,7 +13,7 @@
                     @include('common.errors')
                 
                     <!-- Menu principal -->
-                    <form>
+                    <form action="traiter-image" method="post">
                       <input type="file" accept="image/*;capture=camera">
                     </form>
                 </div>
